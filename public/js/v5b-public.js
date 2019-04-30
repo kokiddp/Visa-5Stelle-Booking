@@ -58274,6 +58274,7 @@ var _ = require('lodash');
             $scope.submit = {
                 h: v5b_options.idh,
                 l: 'it',
+                ca: 1,
             }
 
             $scope.$watch("form.rooms", function(){
