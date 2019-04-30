@@ -1,0 +1,115 @@
+#v5b
+{
+    max-width: 1200px;
+    margin:auto;
+}
+
+#v5b label
+{
+    display:block;
+    font-size: 14px;
+    color:#666666;
+}
+#v5b label.validation-error
+{
+    font-weight: bold;
+    color: red;
+}
+
+#v5b .v5b_dates
+{
+    float: left;
+    width: -webkit-calc(-webkit-calc(100% / 3) * 2);
+    width: -moz-calc(-moz-calc(100% / 3) * 2);
+    width: calc(calc(100% / 3) * 2);
+    width: -webkit-calc((100% / 3) * 2);
+    width: -moz-calc((100% / 3) * 2);
+    width: calc((100% / 3) * 2);
+    margin-bottom: 40px;
+}
+#v5b .v5b_dates .v5b_date
+{
+    float: left;
+    width: -webkit-calc(50% - 20px);
+    width: -moz-calc(50% - 20px);
+    width: calc(50% - 20px);
+}
+#v5b .v5b_dates .v5b_date input[type=date]
+{
+    font-size: 18px;
+    line-height: 30px;
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #666;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+}
+#v5b .v5b_dates .v5b_date.v5b_date_arrival
+{
+    margin-right: 20px;
+}
+#v5b .v5b_dates .v5b_date.v5b_date_depart
+{
+    margin-right: 0;
+}
+
+#v5b .v5b_coupon
+{
+    clear: both;
+    width: 50%;
+    margin-bottom: 40px;
+}
+#v5b .v5b_coupon input[type=text]
+{
+    font-size: 18px;
+    line-height: 30px;
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #666;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+}
+
+#v5b .v5b_submit
+{
+    margin-bottom: 30px;
+}
+#v5b .v5b_submit input[type=submit]
+{
+    border: 1px solid #666666;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.7em;
+    padding: .3em 1em;
+    -webkit-transition: color 300ms ease 0ms,background-color 300ms ease 0ms;
+    -o-transition: color 300ms ease 0ms,background-color 300ms ease 0ms;
+    -moz-transition: color 300ms ease 0ms,background-color 300ms ease 0ms;
+    transition: color 300ms ease 0ms,background-color 300ms ease 0ms;
+}
+#v5b .v5b_submit label
+{
+    display: block;
+}
+
+@media (max-width:768px)
+{
+    #v5b .v5b_dates
+    {
+        width: 100%;
+    }
+    #v5b .v5b_dates .v5b_date
+    {
+        width: 100%;
+    }
+    #v5b .v5b_dates .v5b_date.v5b_date_arrival,
+    #v5b .v5b_dates .v5b_date.v5b_date_depart
+    {
+        margin-right: 0;
+    }
+    #v5b .v5b_coupon
+    {
+        width: 100%;
+    }
+}
