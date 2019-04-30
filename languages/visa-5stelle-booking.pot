@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 "Project-Id-Version: Visa 5Stelle Booking\n"
-"POT-Creation-Date: 2019-02-26 16:58+0100\n"
-"PO-Revision-Date: 2019-02-26 16:58+0100\n"
+"POT-Creation-Date: 2019-04-30 10:29+0200\n"
+"PO-Revision-Date: 2019-04-30 10:28+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -22,122 +22,76 @@ msgstr ""
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 
 #. Plugin Name of the plugin/theme
-#: admin/class-v5b-admin-options.php:46 admin/partials/vpb-admin-display.php:19
+#: admin/class-v5b-admin-options.php:46 admin/partials/v5b-admin-display.php:19
 msgid "Visa 5Stelle Booking"
-msgstr ""
+msgstr "Visa 5Stelle Booking"
 
 #: admin/class-v5b-admin-options.php:66
 msgid "Main Settings"
-msgstr ""
+msgstr "Main Settings"
 
 #: admin/class-v5b-admin-options.php:67
 msgid "URL base"
-msgstr ""
+msgstr "URL base"
 
 #: admin/class-v5b-admin-options.php:68
-msgid "IDH"
-msgstr ""
+msgid "ID Hotel"
+msgstr "ID Hotel"
 
 #: admin/class-v5b-admin-options.php:70
 msgid "Configuration Settings"
-msgstr ""
+msgstr "Configuration Settings"
 
 #: admin/class-v5b-admin-options.php:71
 msgid "Minimum nights stay"
-msgstr ""
+msgstr "Minimum nights stay"
 
-#: admin/class-v5b-admin-options.php:72
-msgid "Maximum bookable rooms"
-msgstr ""
-
-#: admin/class-v5b-admin-options.php:73
-msgid "Maximum people per room"
-msgstr ""
-
-#: admin/class-v5b-admin-options.php:74
-msgid "Default adults per room"
-msgstr ""
-
-#: admin/class-v5b-admin-options.php:75
-msgid "Minimum adults in first room"
-msgstr ""
-
-#: admin/class-v5b-admin-options.php:76
-msgid "Minimum adults in other rooms"
-msgstr ""
-
-#: admin/class-v5b-admin-options.php:85
+#: admin/class-v5b-admin-options.php:80
 msgid "Theese are the general settings"
-msgstr ""
+msgstr "Theese are the general settings"
 
-#: admin/class-v5b-admin-options.php:113
+#: admin/class-v5b-admin-options.php:108
 msgid "Theese are the configuration settings"
-msgstr ""
+msgstr "Theese are the configuration settings"
 
 #: public/class-v5b-public-shortcodes.php:75
 msgid "Arrival date"
-msgstr ""
+msgstr "Arrival date"
 
 #: public/class-v5b-public-shortcodes.php:77
 #: public/class-v5b-public-shortcodes.php:82
 msgid "Invalid date!"
-msgstr ""
+msgstr "Invalid date!"
 
 #: public/class-v5b-public-shortcodes.php:80
 msgid "Departure date"
-msgstr ""
+msgstr "Departure date"
 
 #: public/class-v5b-public-shortcodes.php:87
-msgid "Rooms"
-msgstr ""
-
-#: public/class-v5b-public-shortcodes.php:88
-msgid "-"
-msgstr ""
-
-#: public/class-v5b-public-shortcodes.php:90
-msgid "+"
-msgstr ""
-
-#: public/class-v5b-public-shortcodes.php:96
-msgid "Room "
-msgstr ""
-
-#: public/class-v5b-public-shortcodes.php:98
-msgid "Adults"
-msgstr ""
-
-#: public/class-v5b-public-shortcodes.php:102
-msgid "Children"
-msgstr ""
-
-#: public/class-v5b-public-shortcodes.php:106
-msgid "Babies"
-msgstr ""
-
-#: public/class-v5b-public-shortcodes.php:114
 msgid "Coupon"
-msgstr ""
+msgstr "Coupon"
 
-#: public/class-v5b-public-shortcodes.php:119
+#: public/class-v5b-public-shortcodes.php:92
 msgid "Submit"
-msgstr ""
+msgstr "Submit"
 
-#: public/class-v5b-public-shortcodes.php:120
+#: public/class-v5b-public-shortcodes.php:93
 msgid ""
 "There are one or more errors in your request. Please correct them before "
 "submitting."
 msgstr ""
+"There are one or more errors in your request. Please correct them before "
+"submitting."
 
 #. Plugin URI of the plugin/theme
 #. Author URI of the plugin/theme
 msgid "http://www.visamultimedia.com/"
-msgstr ""
+msgstr "http://www.visamultimedia.com/"
 
 #. Description of the plugin/theme
 msgid "This plugin integrates a 5Stelle Booking reservation form."
-msgstr ""
+msgstr "This plugin integrates a 5Stelle Booking reservation form."
 
 #. Author of the plugin/theme
 msgid "VisaMultimedia"
-msgstr ""
+msgstr "VisaMultimedia"

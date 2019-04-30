@@ -2,6 +2,7 @@
 {
     max-width: 1200px;
     margin:auto;
+    padding: 10px 0;
 }
 
 #v5b label
@@ -61,16 +62,18 @@
 {
     font-size: 18px;
     line-height: 30px;
-    width: 100%;
+    width: calc(100% - 20px);
     padding: 8px;
     border: 1px solid #666;
     -webkit-border-radius: 0;
     -moz-border-radius: 0;
     border-radius: 0;
+    margin-right: 20px;
 }
 
 #v5b .v5b_submit
 {
+    margin-top:24px;
     float: left;
     width: -webkit-calc(100% / 4);
     width: -moz-calc(100% / 4);
@@ -78,6 +81,7 @@
 }
 #v5b .v5b_submit input[type=submit]
 {
+    width: 100%;
     border: 1px solid #666666;
     font-size: 20px;
     font-weight: 500;
@@ -104,7 +108,8 @@
         width: 100%;
     }
     #v5b .v5b_dates .v5b_date.v5b_date_arrival,
-    #v5b .v5b_dates .v5b_date.v5b_date_depart
+    #v5b .v5b_dates .v5b_date.v5b_date_depart,
+    #v5b .v5b_coupon input[type=text]
     {
         margin-right: 0;
     }
