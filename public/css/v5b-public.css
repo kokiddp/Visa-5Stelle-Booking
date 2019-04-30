@@ -42,9 +42,9 @@
 #v5b .v5b_dates .v5b_date input[type=date]
 {
     font-size: 18px;
-    line-height: 30px;
+    line-height: 20px;
     width: 100%;
-    padding: 8px;
+    padding: 2px 8px;
     border: 1px solid #666;
     -webkit-border-radius: 0;
     -moz-border-radius: 0;
@@ -61,9 +61,11 @@
 #v5b .v5b_coupon input[type=text]
 {
     font-size: 18px;
-    line-height: 30px;
+    line-height: 20px;
+    width: -webkit-calc(100% - 20px);
+    width: -moz-calc(100% - 20px);
     width: calc(100% - 20px);
-    padding: 8px;
+    padding: 6px 8px;
     border: 1px solid #666;
     -webkit-border-radius: 0;
     -moz-border-radius: 0;
@@ -73,7 +75,7 @@
 
 #v5b .v5b_submit
 {
-    margin-top:24px;
+    margin-top:23px;
     float: left;
     width: -webkit-calc(100% / 4);
     width: -moz-calc(100% / 4);
@@ -85,8 +87,8 @@
     border: 1px solid #666666;
     font-size: 20px;
     font-weight: 500;
-    line-height: 1.7em;
-    padding: .3em 1em;
+    line-height: 1.5em;
+    padding: 1px 10px;
     -webkit-transition: color 300ms ease 0ms,background-color 300ms ease 0ms;
     -o-transition: color 300ms ease 0ms,background-color 300ms ease 0ms;
     -moz-transition: color 300ms ease 0ms,background-color 300ms ease 0ms;
@@ -99,11 +101,11 @@
 
 @media (max-width:768px)
 {
-    #v5b .v5b_dates
-    {
-        width: 100%;
-    }
-    #v5b .v5b_dates .v5b_date
+    #v5b .v5b_dates,
+    #v5b .v5b_dates .v5b_date,
+    #v5b .v5b_coupon input[type=text],
+    #v5b .v5b_coupon,
+    #v5b .v5b_submit
     {
         width: 100%;
     }
@@ -112,10 +114,5 @@
     #v5b .v5b_coupon input[type=text]
     {
         margin-right: 0;
-    }
-    #v5b .v5b_coupon,
-    #v5b .v5b_submit
-    {
-        width: 100%;
-    }
+    }    
 }

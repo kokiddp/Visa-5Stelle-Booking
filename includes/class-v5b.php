@@ -76,14 +76,14 @@ class Veb {
 	 * @since    1.0.0
 	 */
 	public function __construct() {
-		if ( defined( 'VEB_VERSION' ) ) {
-			$this->version = VEB_VERSION;
+		if ( defined( 'V5B_VERSION' ) ) {
+			$this->version = V5B_VERSION;
 		} else {
 			$this->version = '1.0.0';
 		}
 		$this->plugin_name = 'v5b';
-		if ( defined( 'VEB_ENVIRONMENT' ) ) {
-			$this->environment = VEB_ENVIRONMENT;
+		if ( defined( 'V5B_ENVIRONMENT' ) ) {
+			$this->environment = V5B_ENVIRONMENT;
 		} else {
 			$this->environment = 'development';
 		}
